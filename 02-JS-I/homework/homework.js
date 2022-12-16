@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str;
+  return str
 }
 
 function suma(x, y) {
@@ -58,12 +58,9 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
-  if ( y!= 0){
-    return x/y;
-  }else{
-    console.log("No se puede dividir entre cero");
-  }
+  return x/y;
 }
+
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -118,7 +115,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num%2==0){
+  if(num%2===0){
     return true;
   }else{
     return false;
@@ -181,6 +178,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  return str+"!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -215,7 +213,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
 
-  return base*altura/2;
+  return (base*altura)/2;
 }
 
 
@@ -233,6 +231,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+  if(letra.length >1){
+    return "Dato incorrecto";
+  }
+  if(letra==="a"||letra==="e"||letra==="i"||letra==="o"|| letra==="u"){
+
+    return "Es vocal"
+  }
+  return "Dato incorrecto"
+
   
 }
 
