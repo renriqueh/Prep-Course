@@ -45,7 +45,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-     return y-x;
+  return x-y;
   
   
 }
@@ -83,8 +83,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length===str2.length){
-    
-  }
+    return true;
+  } return false;
 }
 
 function menosQueNoventa(num) {
@@ -180,13 +180,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero==0){
-    return false;
-  }else if (numero >0) {
-    return "Es Positivo";
-  }{
-    return "Es negativo";
-  }
+ if (numero==0){
+
+ }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -200,7 +196,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre+''+apellido;
+  return nombre+" "+apellido;
 }
 
 function obtenerSaludo(nombre) {
@@ -220,7 +216,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado*lado;
+  return 4*lado;
 }
 
 
@@ -251,9 +247,9 @@ function esVocal(letra){
   }
   if(letra==="a"||letra==="e"||letra==="i"||letra==="o"|| letra==="u"){
 
-    return "Es vocal"
+    return "Es vocal";
   }
-  return "Dato incorrecto"
+  return "Dato incorrecto";
 
   
 }
