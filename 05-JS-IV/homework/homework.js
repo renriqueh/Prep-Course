@@ -7,23 +7,22 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
 
-  Gato={
-    name:nombre,
-    age:edad,
-
-    function Meow(){
-
+  var Gato = {
+    nombre: nombre,
+    nombre: edad,
+    meow: function(){
       return "Meow!"
-    }
-    
-  }
+    },
+  };
+return Gato
 
+  
 }
 
 function agregarPropiedad (objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
-  // Devuelve el objeto
-  // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
+  // Devuelve el objetogumento llamado "property" (una cadena/string)
+  // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del ar
   // Tu código:
 }
 
@@ -38,6 +37,8 @@ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
+
+  
 
 }
 
