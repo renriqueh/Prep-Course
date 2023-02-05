@@ -52,9 +52,9 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-for(var i=0;i<array.length; i++){
+ for(var i=0;i<array.length; i++){
   cb(array[i])
-}
+ }
     //array.forEach(el => cb(el));
 }
 
@@ -81,17 +81,18 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   
-  var newArray = array.filter(function(e){
-    
-    return e[0] ==='a';
-    
-    
-    
-    
-  })
+  var newArray = [];
+    for(var i = 0; i<array.length; i++){
 
-  return newArray;
-}
+      if(array[i][0]==="a"){
+        newArray.push(array[i]);
+      }
+
+    }
+        
+    return newArray;
+  }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
