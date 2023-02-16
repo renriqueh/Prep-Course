@@ -1,0 +1,58 @@
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+#divClass{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 545px;
+    border: 5px solid chocolate;
+    margin:10px 200px;
+    background-color: beige;
+    
+       
+
+}
+#thirdDiv{
+    
+    width: 500px;
+    height: 600px;
+    background-color: coral;
+    
+    padding: 20px;
+    border: 10px brown double;
+    margin:5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+
+}
+
+
+body{
+
+    background-image: url("https://media.istockphoto.com/photos/full-pizza-with-grilled-vegetables-picture-id1026817636");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+
