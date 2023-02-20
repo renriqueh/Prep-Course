@@ -1,0 +1,45 @@
+body{
+    width: 800px;
+    margin: auto; 
+    border-radius: 3%;
+border: 5px double skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    width: 780px;
+    height: 200px;
+    margin: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px double skyblue;
+    position:relative;
+    
+}
+.titulo2{
+    width: 780px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border-bottom: 5px double skyblue;
+}
+
+ul{
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+
+    width: 740px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#titulo3{
+    margin-left: 100px;
+}
+
